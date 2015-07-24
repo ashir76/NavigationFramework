@@ -10,9 +10,10 @@
 		1AA6D678CCF060174C6F1C1D /* Pods-NavigationFramework_Tests-NavigationFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE5A2CC4431413D29149F8DA /* Pods-NavigationFramework_Tests-NavigationFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2E3354B3D143D56C41784A70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A2FF4F75ED4C0347D31B3AB /* Foundation.framework */; };
 		8F1D03F7D16C6FB5F839B5A4 /* NavigationFramework.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4396038173DAD7CF5312B73E /* NavigationFramework.bundle */; };
+		8F1F66501B6242C700688B63 /* UIAdvancedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F1F664E1B6242C700688B63 /* UIAdvancedView.h */; };
+		8F1F66511B6242C700688B63 /* UIAdvancedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1F664F1B6242C700688B63 /* UIAdvancedView.m */; };
 		AB543EE19B550E871D9A5292 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A2FF4F75ED4C0347D31B3AB /* Foundation.framework */; };
 		BF41735C045A34EA8B737ADA /* Pods-NavigationFramework_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B19281D68C3291E8FE5120FE /* Pods-NavigationFramework_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D6DD3AC031C4030B9FAEFFB5 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 560068C8DD54CA9551DD09AC /* ReplaceMe.m */; };
 		EE552DAEA2B7E703D3C34DD1 /* Pods-NavigationFramework_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DAF83231EF3122E94F782E /* Pods-NavigationFramework_Tests-dummy.m */; };
 		FA2A93EE0F590D2DE55C6F81 /* Pods-NavigationFramework_Tests-NavigationFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A433F8FD6471EFB5D21725EE /* Pods-NavigationFramework_Tests-NavigationFramework-dummy.m */; };
 /* End PBXBuildFile section */
@@ -39,11 +40,12 @@
 		06A7B50D4F141A699C3B45B6 /* Pods-NavigationFramework_Tests-NavigationFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NavigationFramework_Tests-NavigationFramework.modulemap"; sourceTree = "<group>"; };
 		3C73259F04BF9B7EE650156F /* Pods-NavigationFramework_Tests-NavigationFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NavigationFramework_Tests-NavigationFramework.xcconfig"; sourceTree = "<group>"; };
 		4396038173DAD7CF5312B73E /* NavigationFramework.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationFramework.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		560068C8DD54CA9551DD09AC /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		5649B675AAD49C66E7214090 /* Pods-NavigationFramework_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NavigationFramework_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6A2FF4F75ED4C0347D31B3AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6ABCAEAB94972C636EB41CFE /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6FA9344279A494308EB4E2FD /* Pods-NavigationFramework_Tests-NavigationFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NavigationFramework_Tests-NavigationFramework-prefix.pch"; sourceTree = "<group>"; };
+		8F1F664E1B6242C700688B63 /* UIAdvancedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAdvancedView.h; sourceTree = "<group>"; };
+		8F1F664F1B6242C700688B63 /* UIAdvancedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAdvancedView.m; sourceTree = "<group>"; };
 		958527D4FF1EAB44EE69E005 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9714A5A1F040A6B0650ADF2A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A00359CC90C9013B370C00E2 /* Pods-NavigationFramework_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NavigationFramework_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -99,7 +101,8 @@
 		03874BB1B79F789E1FCC9D7C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				560068C8DD54CA9551DD09AC /* ReplaceMe.m */,
+				8F1F664E1B6242C700688B63 /* UIAdvancedView.h */,
+				8F1F664F1B6242C700688B63 /* UIAdvancedView.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF41735C045A34EA8B737ADA /* Pods-NavigationFramework_Tests-umbrella.h in Headers */,
+				8F1F66501B6242C700688B63 /* UIAdvancedView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,7 +332,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA2A93EE0F590D2DE55C6F81 /* Pods-NavigationFramework_Tests-NavigationFramework-dummy.m in Sources */,
-				D6DD3AC031C4030B9FAEFFB5 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +346,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F1F66511B6242C700688B63 /* UIAdvancedView.m in Sources */,
 				EE552DAEA2B7E703D3C34DD1 /* Pods-NavigationFramework_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
