@@ -1,0 +1,14 @@
+PODS:
+  - NavigationFramework (0.1.0)
+
+DEPENDENCIES:
+  - NavigationFramework (from `../`)
+
+EXTERNAL SOURCES:
+  NavigationFramework:
+    :path: ../
+
+SPEC CHECKSUMS:
+  NavigationFramework: a958f8253526d4d79eab380bb5430c26379422b5
+
+COCOAPODS: 0.37.2

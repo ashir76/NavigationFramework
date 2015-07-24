@@ -1,0 +1,6 @@
+framework module NavigationFramework {
+  umbrella header "Pods-NavigationFramework_Tests-NavigationFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}
